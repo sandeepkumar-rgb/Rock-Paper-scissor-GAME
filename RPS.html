@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1>🎮 Rock Paper Scissor</h1>
+
+        <p class="subtitle">Choose Your Move</p>
+
+        <div class="moves">
+
+            <button onclick="makemove('rock')" class="movesimg">
+                <img src="pictures/rock.png" alt="Rock">
+            </button>
+
+            <button onclick="makemove('paper')" class="movesimg">
+                <img src="pictures/paper.png" alt="Paper">
+            </button>
+
+            <button onclick="makemove('scissor')" class="movesimg">
+                <img src="pictures/scissor.png" alt="Scissor">
+            </button>
+
+        </div>
+
+        <p class="showwol"></p>
+
+        <p class="showcom"></p>
+
+        <p class="showwho"></p>
+
+        <p class="jsscore"></p>
+
+        <button class="reset" onclick="Resetscore()">
+            🔄 Reset Score
+        </button>
+
+    </div>
+
+    <script src="RPS.js"></script>
+
+</body>
+</html>
